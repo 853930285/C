@@ -3,8 +3,8 @@
 void to_binary (unsigned long n)
 {
 	int r;
-	r=n%2;
-	if(n>=2)
+	r=n%2;//取余得到最后的值
+	if(n>=2)//确定n不为1 
 	{
 		to_binary(n/2);
 	}
